@@ -12,7 +12,7 @@ cache:
  - $HOME/.gradle/wrapper/
 deploy:
  provider: heroku
- api_key: c9813189-5a68-47e0-8e31-42a55b969ba7
+ api_key: 39a6e742-732a-4651-b290-3d2f71055c2f
  app: yifeiweb
  skip_cleanup: true
 
