@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns={"/patients"},loadOnStartup = 1)
+@WebServlet(urlPatterns={"/home"},loadOnStartup = 1)
 public class MyServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
@@ -13,7 +13,15 @@ public class MyServlet extends HttpServlet {
         resp.setContentType("text/html");
         resp.getWriter().write("<HTML>" +
                 "<HEAD>" +
-                "<TITLE> Title</TITLE>");
+                "<TITLE> Yifei_Home </TITLE>" +
+                "</HEAD>" +
+                "<BODY BGCOLOR=#cdd2e0>" +
+                "<HR>" +
+                "<H1>This website finally work</H1>" +
+                "<H2>I'M SO HAPPY!!!^-^ <H2>" +
+                "<HR>" +
+                "</BODY>" +
+                "</HTML>");
     }
 
     @Override
