@@ -11,7 +11,8 @@ cache:
  - $HOME/.gradle/caches/
  - $HOME/.gradle/wrapper/
 deploy:
- branch: main
+ on:
+  branch: main
  provider: heroku
  api_key: fbb18a44-e9ba-49ef-b461-2f608d0373d6
  app: yifeiweb
