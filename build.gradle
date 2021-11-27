@@ -20,6 +20,8 @@ war{
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
 dependencies {
+    runtimeOnly group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
+    implementation group: 'com.google.code.gson', name:'gson', version: '2.7'
     // to include the servlet libraries
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
