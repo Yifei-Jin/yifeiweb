@@ -9,6 +9,7 @@ repositories {
     jcenter() // gretty doesn't exist in mavenCentral, so use jcenter
 }
 war{
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
     from {
         // all of the library jar files used are to be zipped into the war file
         configurations.runtimeClasspath.collect {

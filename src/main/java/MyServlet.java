@@ -56,7 +56,7 @@ public class MyServlet extends HttpServlet {
                 "<H1>This website finally work</H1>" +
                 "<H2>I'M SO HAPPY!!!^-^<H2>" +
                 "<H2>this is testing<H2>" +
-                //"<H2>"+data+"<H2>" +
+                "<H2>"+data+"<H2>" +
                 "<HR>" +
                 "</BODY>" +
                 "</HTML>");
