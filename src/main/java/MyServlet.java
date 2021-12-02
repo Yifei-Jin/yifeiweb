@@ -27,7 +27,7 @@ public class MyServlet extends HttpServlet {
         }
 
         try {
-            conn= DriverManager.getConnection(dbUrl);//,"postgres", "yifei1024");
+            conn= DriverManager.getConnection(dbUrl);//"postgres", "yifei1024");
         } catch (SQLException e) {
             e.printStackTrace();
         }
